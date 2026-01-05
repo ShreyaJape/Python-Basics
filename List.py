@@ -132,6 +132,14 @@ print(fruits[0][0])       #mango
 print(fruits[1][0])       #sitafal
 
 
+#takig input to the list
+num = []
+n = int(input("enter the length of list: "))
+for i in range(n):
+  i = int(input("enter the elements of the list: "))
+  num.append(i)
+print(num)
+
 
 
 
